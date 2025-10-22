@@ -1,11 +1,11 @@
 {
-  "name": "streaksforynabwebsite",
+  "name": "website",
   "version": "1.0.0",
   "description": "Official website for Streaks (For YNAB) - Build better spending habits with YNAB integration",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StreaksForYnab/StreaksForYnab.git"
+    "url": "https://github.com/streaks-for-ynab/website.git"
   },
   "keywords": [
     "ynab",
@@ -21,7 +21,6 @@
     "format:check": "prettier --check .",
     "format:fix": "prettier --write --ignore-unknown ."
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {

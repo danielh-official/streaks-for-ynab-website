@@ -18,14 +18,22 @@
       <div class="footer-col footer-col-3">
         <ul class="contact-list">
           {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Contact: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
       </div>
     </div>
 
-    <div class="footer-disclaimer">
+    <div class="footer-disclaimer flex">
       <p><em>Streaks (For YNAB) is not affiliated with YNAB (You Need A Budget). YNAB is a registered trademark of YNAB LLC.</em></p>
+    </div>
+
+    <div class="footer-information">
+        <span class="site-info">© {{ site.time | date: "%Y" }} <span class="p-name"><a target="_blank"
+                    href="{{ site.copyright.owner.url }}">{{ site.copyright.owner.name | escape }}</a></span>. All rights
+            reserved.</span>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms-of-use">Terms of Use</a>
     </div>
 
   </div>
