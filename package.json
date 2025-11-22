@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/streaks-for-ynab/website.git"
+    "url": "https://github.com/danielh-official/streaks-for-ynab-website.git"
   },
   "keywords": [
     "ynab",

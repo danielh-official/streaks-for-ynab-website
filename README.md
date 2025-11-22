@@ -42,27 +42,3 @@ bundle exec jekyll build
 ```
 
 The built site will be in the `_site` directory.
-
-## 📞 Support
-
-For website issues, **submit an issue**:
-[Report problems](https://github.com/streaks-for-ynab/Website/issues)
-
-## 📄 License
-
-This website repository is open source and available under the MIT License. However, the main
-Streals (For YNAB) iOS app repository is private and proprietary.
-
-### What's Open Source
-
-✅ This website's repository
-
-### What's Private
-
-- ❌ Streaks (For YNAB) iOS app source code
-- ❌ App-specific business logic
-- ❌ Internal development tools
-
----
-
-_Built with Jekyll and hosted on GitHub Pages_
