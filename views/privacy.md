@@ -28,7 +28,8 @@ this data for any other purpose without your explicit consent.
 ## 1.3 Data Storage:
 
 All data obtained from the YNAB API is securely stored on your device and synced to Apple's CloudKit
-service (see: https://support.apple.com/guide/security/icloud-encryption-sec3cac31735/web).
+service (see:
+[https://support.apple.com/guide/security/icloud-encryption-sec3cac31735/web](https://support.apple.com/guide/security/icloud-encryption-sec3cac31735/web)).
 
 ## 1.4 Data Retention:
 
