@@ -7,7 +7,7 @@ permalink: /privacy
 
 # Privacy Policy
 
-**Effective Date:** October 22, 2025
+**Effective Date:** November 24, 2025
 
 Streaks (For YNAB) ("we," "our," or "us") is committed to protecting your privacy. This Privacy
 Policy explains how we collect, use, and safeguard your information when you use our iOS
@@ -27,16 +27,18 @@ this data for any other purpose without your explicit consent.
 
 ## 1.3 Data Storage:
 
-All data obtained from the YNAB API is securely stored on your local device.
+All data obtained from the YNAB API is securely stored on your device and synced to Apple's CloudKit
+service (see: https://support.apple.com/guide/security/icloud-encryption-sec3cac31735/web).
 
 ## 1.4 Data Retention:
 
-Your financial data stays on your device for as long as it is installed. You may also delete all
-financial data tied to a plan by deleting the plan.
+Your financial data stays on your device for as long as it is installed and the CloudKit backup is
+retained. You may also delete all financial data tied to a plan by deleting the plan.
 
 ## 1.5 Data Access:
 
-As your data is locally stored, we cannot view it.
+Your data is encrypted and protected by iCloud's data partioning. We are not able to view any data
+on your device or in your CloudKit database.
 
 ## Guarantee of Non-Disclosure to Third Parties:
 
@@ -92,11 +94,3 @@ outdated or subject to change as the app evolves.
 - Features described in this policy may be added, removed, or modified
 - Privacy practices may be updated as we improve the app
 - We will update this policy when significant changes occur
-- The core privacy principles (local data processing, no cloud storage, etc.) remain unchanged
-
-**Future Considerations:**
-
-- Cloud syncing via CloudKit may be added in future versions (especially for Mac compatibility)
-- Any cloud features will be opt-in and disabled by default
-- Users will always retain the ability to clear their data completely
-- Significant privacy changes will be communicated clearly before implementation
