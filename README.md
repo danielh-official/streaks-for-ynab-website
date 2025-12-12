@@ -11,19 +11,26 @@ This is the official website for Streaks (For YNAB), built with Jekyll and hoste
 
 ### Local Development
 
-1. **Install dependencies:**
+1. **Fork and clone:**
+
+```bash
+git clone https://github.com/YOUR-USERNAME/streaks-for-ynab-website.git
+cd streaks-for-ynab-website
+```
+
+2. **Install dependencies:**
 
    ```bash
    bundle install
    ```
 
-2. **Start the development server:**
+3. **Start the development server:**
 
    ```bash
    bundle exec jekyll serve
    ```
 
-3. **View the site:** Open [http://localhost:4000](http://localhost:4000) in your browser.
+4. **View the site:** Open [http://localhost:4000](http://localhost:4000) in your browser.
 
 ### Local Development with Base URL
 
